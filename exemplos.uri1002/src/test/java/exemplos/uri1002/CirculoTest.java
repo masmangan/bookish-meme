@@ -14,6 +14,7 @@ public class CirculoTest {
 		double actual = c1.getArea();
 		assertEquals(expected, actual, 0.0001);
 	}
+	
 	@Test
 	public void test100Dot64() {
 		Circulo c1 = new Circulo(100.64);
