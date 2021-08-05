@@ -9,17 +9,18 @@ package exemplos.uri1002;
  *
  */
 public class Circulo {
+	
 	/*
 	 * 
 	 */
-    private double raio;
-    
-    /*
-     * 
-     */
-    private static final double PI = 3.14159;
-	
-    /**
+	private double raio;
+
+	/*
+	 * 
+	 */
+	private static final double PI = 3.14159;
+
+	/**
 	 * @param raio
 	 */
 	public Circulo(double raio) {
