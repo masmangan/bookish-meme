@@ -5,6 +5,9 @@ package exemplos.uri1002;
 
 import java.util.Scanner;
 
+import exemplos.figuras.Circulo;
+import exemplos.figuras.Figura;
+
 /**
  * @author marco
  *
@@ -17,7 +20,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner teclado;
 		double raio;
-		Circulo c1;
+		Figura c1;
 		double area;
 		
 		teclado = new Scanner(System.in);

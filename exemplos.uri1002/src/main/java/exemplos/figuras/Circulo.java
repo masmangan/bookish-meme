@@ -1,7 +1,7 @@
 /*
  * Direitos Autorais, 2021, Marco Mangan.
  */
-package exemplos.uri1002;
+package exemplos.figuras;
 
 /**
  * A classe <code>Circulo</code> representa um círculo com raio.
@@ -9,7 +9,7 @@ package exemplos.uri1002;
  * @author marco
  *
  */
-public class Circulo {
+public class Circulo extends Figura {
 	
 	/*
 	 * 
@@ -39,6 +39,7 @@ public class Circulo {
 	/**
 	 * @return the area
 	 */
+	@Override
 	public double getArea() {
 		return raio * raio * PI;
 	}
